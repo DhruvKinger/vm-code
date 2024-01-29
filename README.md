@@ -1,8 +1,9 @@
 # vm-code
 
-server {
+```
+ server {
     listen 80;
-
+    
     server_name your_domain.com;
 
     location / {
@@ -13,3 +14,4 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+```
